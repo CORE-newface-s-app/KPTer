@@ -56,7 +56,7 @@ return array(
 
 	// 'index_file' => false,
 
-	// 'profiling' => false,
+	'profiling' => true,
 
 	/**
 	 * -------------------------------------------------------------------------
