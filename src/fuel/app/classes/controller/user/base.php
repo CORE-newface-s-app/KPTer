@@ -32,12 +32,32 @@ class Controller_User_Base extends Controller_Hybrid
     $this->pankuzu = 'user/common/pankuzu';
     // cssテンプレートを変数にセット
     $this->css .= Asset::css('common.css');
+    // jsテンプレートを変数にセット
+
+
   }
 
   public function after($response)
   {
+    // headerをテンプレートにセット
+    $this->template->header = View::forge($this->header);
 
+    // footerをテンプレートにセット
+    $this->template->footer = View::forge($this->footer);
+
+    // パンくずをテンプレートにセット
+    $this->template->pankuzu = !empty($this->pankuzu) ? '' : '';
+
+    // cssをテンプレートにセット
+    $this->template->set('css' , $this->css , false);
+
+    // js
+
+
+    // メタ情報をテンプレートにセット
+
+
+
+    return parent::after($response);
   }
-
-
 }
