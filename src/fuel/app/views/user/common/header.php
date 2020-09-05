@@ -1,14 +1,12 @@
 <header>
     <div>
-        <img>
+        <h1 class="top_title">KPTer for CORE-TECH</h1>
     </div>
     <nav>
         <ul>
-            <li>メニュー１</li>
-            <li>メニュー２</li>
-            <li>メニュー３</li>
-            <li>メニュー４</li>
-            <li>メニュー５</li>
+            <li class=”current_li”><a href=”#”>Home</a></li>
+            <li class=”current_li”><a href=”#”>News</a></li>
+            <li class=”current_li”><a href=”#”>About</a></li>
         </ul>
     </nav>
 </header>
