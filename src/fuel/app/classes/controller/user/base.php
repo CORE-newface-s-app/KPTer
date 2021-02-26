@@ -5,9 +5,6 @@
   Hybridを継承
 */
 
-use Fuel\Core\Asset;
-use Fuel\Core\Controller_Hybrid;
-
 class Controller_User_Base extends Controller_Hybrid
 {
   protected $header = '';

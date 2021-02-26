@@ -1,13 +1,11 @@
 <?php
 /*
-  Controller_User_Top
-  TOP画面
+  Controller_User_Registration
+  LOGIN画面
   User_Baseを継承
 */
 
-use Fuel\Core\Asset;
-
-class Controller_User_Top extends Controller_User_Base
+class Controller_User_Registration extends Controller_User_Base
 {
   public function before()
   {
@@ -28,9 +26,9 @@ class Controller_User_Top extends Controller_User_Base
 
     // メタ情報セット
 
-
+    var_dump("きた");die;
     // テンプレートのcontentにviewをセット(メタ情報も後ほど渡す)
-    $this->template->content = View::forge('user/top');
+    $this->template->content = View::forge('user/login/index');
 
   }
 }

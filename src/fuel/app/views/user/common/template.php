@@ -19,7 +19,6 @@
         <?php echo $footer ?>
 
         <?php /* 用意できたら追加
-        <?php echo $header ?>
         <?php echo $pankuzu ?>
         */ ?>
     </div>

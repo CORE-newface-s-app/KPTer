@@ -45,5 +45,6 @@ return array(
 	 *  ルーティング追加
 	 * -------------------------------------------------------------------------
 	 */
-	'_root_' => 'user/top/index',
+	'_root_' 		=> 'user/top/index',
+	'registration' 	=> 'user/registration/index',
 );
