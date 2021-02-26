@@ -1,6 +1,6 @@
 <header>
     <div>
-        <h1 class="top_title">KPTer for CORE-TECH</h1>
+        <h1 class="top_title">KPTer</h1>
     </div>
     <nav>
         <ul>
