@@ -4,9 +4,6 @@
   TOP画面
   User_Baseを継承
 */
-
-use Fuel\Core\Asset;
-
 class Controller_User_Top extends Controller_User_Base
 {
   public function before()

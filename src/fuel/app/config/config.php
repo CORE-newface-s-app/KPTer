@@ -54,7 +54,7 @@ return array(
 	 *
 	 */
 
-	// 'index_file' => false,
+	'index_file' => false,
 
 	'profiling' => true,
 
