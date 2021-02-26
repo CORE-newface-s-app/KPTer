@@ -14,7 +14,6 @@ class Controller_User_Registration extends Controller_User_Base
 
   public function action_index()
   {
-    var_dump("きた");die;
     // TOP画面用cssセット
     // $this->cdd .= Asset::css('');
 
